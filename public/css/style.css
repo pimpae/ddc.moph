@@ -30,7 +30,7 @@ body{
 }   
 .nav-top:after{
   content: "";
-  width: 30%; 
+  width: 26%; 
   background-color: #fff;
   position: absolute;
   left: 0;
@@ -526,6 +526,12 @@ body{
 }
 .partner-sec .owl-nav div{  
   color: transparent !important;
+}
+.partner-sec h4{
+  text-align: center;
+  font-size: 18px;
+  margin-top: 10px;
+  color: var(--bg-main)
 }
 .box-form{
   min-height: 400px;
