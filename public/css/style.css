@@ -99,7 +99,34 @@ body{
 }
 .nav-bot ul li.active a i{
   font-size: 24px;
+} 
+.nav-bot ul li button{
+  text-align: center; 
+  width: 100%;  
+  border: none;
+  background-color: #f3f8fb; 
+  height: 100%;
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+  color: var(--bg-main3); 
+  border-radius: 0px !important;
 }
+.nav-bot ul li button + .dropdown-menu{
+  border: 0px; 
+}
+.nav-bot ul li button + .dropdown-menu a{ 
+  color: var(--bg-main3); 
+  text-align: left !important; 
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+.nav-bot ul li button + .dropdown-menu a:hover{ 
+  color: #fff;  
+}
+.nav-bot ul li button:focus{
+  border: 0px;
+  outline: none !important;
+} 
 .cover .carousel .carousel-item img{
   height: 650px;
   object-fit: cover;
