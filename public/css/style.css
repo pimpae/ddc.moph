@@ -1344,8 +1344,19 @@ input.search-top + span{
   margin-top: 10px;
   border-bottom: 2px solid #1e81b3;
 }
+.dropdown:hover + .dropdown-menu {
+  display: block;
+}
 
-
+.dropdown>.dropdown-toggle:active { 
+  pointer-events: none;
+}  
+li.position-relative .dropdown-menu:hover{
+  display: block;
+}
+li.position-relative .dropdown-menu{
+  margin-top: -3px;
+}
 
 
 /*
